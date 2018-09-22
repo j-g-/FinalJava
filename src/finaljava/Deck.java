@@ -87,13 +87,13 @@ public class Deck {
 		System.out.println("********************************************************************************");
 		System.out.println("Taking out cards:"); 
 		System.out.println("********************************************************************************");
-		temp = d.remove(new Card(Card.type.SPADES.ordinal(), Card.value.V10.ordinal()));
+		temp = d.remove(new Card(Card.type.SPADES.ordinal(), Card.values.V10.ordinal()));
 		System.out.println(String.format("Removed: %s", 
 				(temp != null) ? temp.toString() : "none"));
-		temp = d.remove(new Card(Card.type.DIAMONDS.ordinal(), Card.value.K.ordinal()));
+		temp = d.remove(new Card(Card.type.DIAMONDS.ordinal(), Card.values.K.ordinal()));
 		System.out.println(String.format("Removed: %s", 
 				(temp != null) ? temp.toString() : "none"));
-		temp = d.remove(new Card(Card.type.DIAMONDS.ordinal(), Card.value.V3.ordinal()));
+		temp = d.remove(new Card(Card.type.DIAMONDS.ordinal(), Card.values.V3.ordinal()));
 		System.out.println(String.format("Removed: %s", 
 				(temp != null) ? temp.toString() : "none"));
 		d.scramble();

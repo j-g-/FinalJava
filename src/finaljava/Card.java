@@ -19,7 +19,7 @@ public class Card {
 		SPADES,
 		CLOVERS
 	}
-	public static enum value{
+	public static enum values{
 		V1,
 		V2,
 		V3,
